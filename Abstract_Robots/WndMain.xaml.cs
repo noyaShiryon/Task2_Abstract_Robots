@@ -30,8 +30,8 @@ namespace Robots_inc
             activeWorkers = lw;
             activeMissions = lm;
             activeRobots = lr;
-            this.Content = null;
-            this.Content = worker = w;
+            this.DataContext = null;
+            this.DataContext = worker = w;
         }
 
         private void LoadWorkerInfo()
