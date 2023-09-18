@@ -32,6 +32,7 @@ namespace Robots_inc
             activeRobots = lr;
             this.DataContext = null;
             this.DataContext = worker = w;
+            LoadWorkerInfo();
         }
 
         private void LoadWorkerInfo()
