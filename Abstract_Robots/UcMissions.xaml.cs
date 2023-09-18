@@ -21,8 +21,8 @@ namespace Robots_inc
     public partial class UcMissions : UserControl
     {
         Worker worker;
-        Mission missons;
-        public UcMissions(Worker worker, Mission missons)
+        Mission misson;
+        public UcMissions(Worker worker, Mission misson)
         {
             InitializeComponent();
         }
